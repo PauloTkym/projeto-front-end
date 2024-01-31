@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.texto-destaque{
+    color: #0000ff;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.titulo-blog{
+    color: #ff0000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 10px 20px 10px;
+    font-size: 2.5rem;
+    padding: 0 0 10px 10px;
+}
+
+.urgente{
+    color: #ff0000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 1px solid #00ff00;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px; /* Ajuste a largura conforme necessário */
+  }
+  
+  .container div {
+    flex: 0 0 48%; /* 30% de largura para cada coluna */
+    height: 200px; /* Altura das linhas, ajuste conforme necessário */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Adicionando bordas para melhor visualização */
+    margin: 5px; /* Espaçamento entre os itens, ajuste conforme necessário */
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+  }
+
+  section{
+    
+    border-style: solid;    /* Cria uma borda sólida */
+    border-color:red;   /* Colore a borda com a cor vermelha */
+    margin: 10%;    /* Adiciona uma margem ao redor da section */
+    display: flex;
+    padding-left: 250px;
+    
+    justify-content: space-evenly;
+}
+
+.exercicio{
+   width: 200px;
+}
